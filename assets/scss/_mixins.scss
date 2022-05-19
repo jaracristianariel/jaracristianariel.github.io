@@ -1,0 +1,7 @@
+@mixin PorpBoton ($bc-color,$color,$wd,$hg){
+    background-color: $bc-color;
+    color: $color;
+    width: $wd;
+    height: $hg;
+};
+

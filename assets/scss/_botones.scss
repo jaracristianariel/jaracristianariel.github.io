@@ -1,0 +1,15 @@
+.boton {
+    border: map-get($boton , bordes);
+    text-decoration: map-get($boton , decoracion);
+    padding: map-get($boton, padding) ;
+    color: map-get($boton , color);
+    border-radius: map-get($boton , radio);
+}
+.boton:hover {
+    color: $colorblanco;
+}
+
+.btn {
+    @extend .boton;
+    @include PorpBoton ($colornegro,$colorblanco,100px,auto)
+}
